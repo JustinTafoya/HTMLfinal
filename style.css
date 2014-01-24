@@ -1,0 +1,58 @@
+body{ 
+	font-family: 'Lustria', serif;
+	background:#333333;
+}
+
+#id:hover
+
+#content{
+	color: #ffffff;
+}
+#nav-container{
+	background: #330066;
+	position: fixed;
+	width:100%;
+}
+
+/*TOP NAV*/
+#top-nav{
+	margin:0 auto;
+	width: 390px;
+}
+#top-nav ul{
+	
+}
+
+#top-nav ul li{
+	display: block;
+	float: left;
+	
+}
+#top-nav ul li a{
+	border-radius: 5px;
+	color:#ffffff;
+	display: block;
+	font-size: 16px;
+	font-weight: 100;
+	height: 35px;
+	line-height: 35px;
+	margin: 8px 6px;
+	padding: 0 5px;
+	text-align: center;
+	text-decoration: none;
+	width: 75px;
+
+}
+
+#top-nav ul li a:link{
+
+}
+#top-nav ul li a:visited{
+	background:#333333
+}
+#top-nav ul li a:hover{
+	background:#777777;
+}
+#top-nav ul li a:active{
+}
+/*ABOUT*/
