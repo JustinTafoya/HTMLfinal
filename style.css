@@ -1,6 +1,6 @@
 body{ 
 	font-family: 'Lustria', serif;
-	background:#333333;
+	background:#ffffff;
 }
 
 #id:hover
@@ -9,15 +9,15 @@ body{
 	color: #ffffff;
 }
 #nav-container{
-	background: #330066;
+	background: #0040FF;
 	position: fixed;
 	width:100%;
 }
 
 /*TOP NAV*/
 #top-nav{
-	margin:0 auto;
-	width: 390px;
+	margin: 0 auto;
+	width: 390px
 }
 #top-nav ul{
 	
@@ -29,7 +29,8 @@ body{
 	
 }
 #top-nav ul li a{
-	border-radius: 5px;
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
 	color:#ffffff;
 	display: block;
 	font-size: 16px;
@@ -55,4 +56,40 @@ body{
 }
 #top-nav ul li a:active{
 }
+
+
 /*ABOUT*/
+#about{
+
+
+}
+#portrait-container{
+	margin: 0 0 30px 0;
+	background-color:black;
+}
+}
+
+
+/*PORTFOLIO*/
+#video{
+	margin: 0 0 30px 0;
+	background-color:black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
