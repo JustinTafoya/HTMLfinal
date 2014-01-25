@@ -90,6 +90,7 @@ body{
         background: #000000;
         font-size: 20px;
         width: 1000px;
+        border: 2px solid #000000;
 }
 #about p{
         background: #333333;
