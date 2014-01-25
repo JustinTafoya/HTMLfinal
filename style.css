@@ -12,11 +12,16 @@ body{
         color: #ffffff;
 }
 #nav-container{
-        background: url("http://imgur.com/CMxREnW.jpg");
         background-position:middle;
+        background: url("http://imgur.com/CMxREnW.jpg");
         position: fixed;
         width:100%;
 }
+
+
+
+
+
 
 /*TOP NAV*/
 #top-nav{
@@ -48,11 +53,10 @@ body{
 }
 
 #top-nav img{
-        border:2px solid #333333;
-
         background: url("http://imgur.com/iVXc4u1");
-        width:50px;
         border-radius:50px;
+        border:2px solid #333333;
+        width:50px;
 
 }
 
@@ -60,7 +64,7 @@ body{
 
 }
 #top-nav ul li a:visited{
-        background:#333333
+        
 }
 #top-nav ul li a:hover{
         background:#777777;
@@ -69,9 +73,12 @@ body{
 }
 
 
+
+
+
 /*ABOUT*/
 #about{
-        padding:60px;
+        padding-top:60px;
         text-align: center;
         color: yellow;
         background: url("http://imgur.com/3cxu0Ca.jpg");
@@ -82,10 +89,14 @@ body{
 #about h1{
         background: #000000;
         font-size: 20px;
+        width: 1000px;
 }
 #about p{
         background: #333333;
+        width: 1000px;
+        border: 2px solid #000000;
         color: white;
+
 }
 
 #about img{
@@ -94,6 +105,7 @@ body{
         background-size: 600px;
         width:400px;
         border-radius:100px;
+
 }
 
 #portrait{
@@ -104,18 +116,19 @@ body{
 
 /*Video*/
 #videos{
+        padding-top:60px;
         color:white;
         margin: 75px auto;
 }
 .video header a{
         color:Yellow;
         font-size: 14pt;
-        text-align: center;
         margin: 75px auto;
+        text-align: center;
 }
 #video h2{
-        text-transform: bold;
         padding-bottom: 50px;
+        text-transform: bold;
 
 }
 #video p{
@@ -127,13 +140,15 @@ body{
 
 /*Comments*/
 #comments{
+        padding-top:60px;
+        background-position:top;
+        background-repeat:no-repeat:;
+        background-size: 1000px;
+        background: url("http://imgur.com/CMxREnW.jpg");
+        color: yellow;
+        padding-bottom: 200px;
         padding:60px;
         text-align: center;
-        color: yellow;
-        background: url("http://imgur.com/CMxREnW.jpg");
-        background-size: 1000px;
-        background-repeat:no-repeat:;
-        background-position:top;
             
 }
 
@@ -151,8 +166,8 @@ body{
 
 #comments input{
         border: 0;
-        padding: 8px;
         font-size: 16px;
+        padding: 8px;
 }
 
 #comments input[type="submit"]{
@@ -160,3 +175,18 @@ body{
         color: white;
 }
 
+/*footer*/
+
+#footer{
+
+}
+
+#footer a{
+        color:white;
+        text-align: center;
+}
+
+#footer p{
+        color:white;
+        text-align: center;
+}
