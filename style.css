@@ -49,9 +49,11 @@ body{
 
 #top-nav img{
         border:2px solid #333333;
+
         background: url("http://imgur.com/iVXc4u1");
         width:50px;
         border-radius:50px;
+
 }
 
 #top-nav ul li a:link{
@@ -92,14 +94,10 @@ body{
         background-size: 600px;
         width:400px;
         border-radius:100px;
-                
 }
 
 #portrait{
 }
-
-
-
 
 
 
@@ -161,17 +159,4 @@ body{
         background: red;
         color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
