@@ -1,7 +1,10 @@
 body{
         font-family: 'Lustria', serif;
-        background: url("http://i.imgur.com/wnGAXc6.jpg");
-}
+        background: url("http://imgur.com/wnGAXc6.jpg");
+        background-size: 3000px;
+        background-repeat:no-repeat:;
+        background-position:top;
+        }
 
 #id:hover
 
@@ -9,10 +12,10 @@ body{
         color: #ffffff;
 }
 #nav-container{
-        background: #0040FF;
+        background: url("http://imgur.com/CMxREnW.jpg");
+        background-position:middle;
         position: fixed;
         width:100%;
-
 }
 
 /*TOP NAV*/
@@ -30,8 +33,7 @@ body{
         
 }
 #top-nav ul li a{
-        border-bottom-left-radius: 30px;
-        border-top-right-radius: 30px;
+        border-radius: 30px;
         color:#ffffff;
         display: block;
         font-size: 16px;
@@ -42,8 +44,14 @@ body{
         padding: 0 5px;
         text-align: center;
         text-decoration: none;
-        width: 75px;
+        width: 60px;
+}
 
+#top-nav img{
+        border:2px solid #333333;
+        background: url("http://imgur.com/iVXc4u1");
+        width:50px;
+        border-radius:50px;
 }
 
 #top-nav ul li a:link{
@@ -61,37 +69,109 @@ body{
 
 /*ABOUT*/
 #about{
-	padding-top: 60px;
-	padding-bottom: 60px;
-	text-align: center;
-	color: white;
-}	
+        padding:60px;
+        text-align: center;
+        color: yellow;
+        background: url("http://imgur.com/3cxu0Ca.jpg");
+        background-size: 1000px;
+        background-repeat:no-repeat:;
+        background-position:top;
+}
+#about h1{
+        background: #000000;
+        font-size: 20px;
+}
+#about p{
+        background: #333333;
+        color: white;
+}
 
 #about img{
-border:2px solid #333333;
-background: url("http://imgur.com/iVXc4u1");
-width:200px;
-border-radius:100px;
+        border:2px solid #333333;
+        background: url("http://imgur.com/iVXc4u1");
+        background-size: 600px;
+        width:400px;
+        border-radius:100px;
+                
+}
+
+#portrait{
 }
 
 
-#portrait-container{
-        margin: 0px 0 0 0;
-        background: url("http://i.imgur.com/wnGAXc6.jpg");
-}
-}
+
+
+
 
 
 /*Video*/
-#video{
-        margin: 0 0 30px 0;
-        background-color:black;
-
+#videos{
+        color:white;
+        margin: 75px auto;
+}
+.video header a{
+        color:Yellow;
+        font-size: 14pt;
+        text-align: center;
+        margin: 75px auto;
 }
 #video h2{
         text-transform: bold;
+        padding-bottom: 50px;
 
 }
+#video p{
+        color: white;
+}
+
+
+
+
+/*Comments*/
+#comments{
+        padding:60px;
+        text-align: center;
+        color: yellow;
+        background: url("http://imgur.com/CMxREnW.jpg");
+        background-size: 1000px;
+        background-repeat:no-repeat:;
+        background-position:top;
+            
+}
+
+#comments h1{
+        color:red;
+        font-size: 16pt;
+        text-align: center;
+}
+
+#comments p{
+        color:white;
+        text-align: center;
+}
+
+
+#comments input{
+        border: 0;
+        padding: 8px;
+        font-size: 16px;
+}
+
+#comments input[type="submit"]{
+        background: red;
+        color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
